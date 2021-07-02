@@ -42,6 +42,7 @@ ul.top_menu {
   text-decoration: none;
   display: block;
   padding: 15px;
+  padding-bottom: 0;
 }
 
 .top_menu li a:hover {
@@ -51,7 +52,7 @@ ul.top_menu {
 .logo_image {
   width: 110px;
   float: left;
-  margin: o;
+  margin: 0;
 }
 
 .image_area {
@@ -150,7 +151,7 @@ margin-bottom: 10px;
   color: #fff;
   text-align: center;
   vertical-align: middle;
-  display: table-cell
+  display: table-cell;
 }
 
 
@@ -175,17 +176,17 @@ margin-bottom: 10px;
 }
 
 .btn {
-  margin: 10px;
   background-color: #008B8B;
   color: #fff;
+  padding: 10px;
   position: absolute;
-  left:620px;
+  left:630px;
   font-size: 3rem;
   border: none;
 }
 
 .btn:hover {
-  opacity: 0.5
+  opacity: 0.5;
 }
 
 .clearfix:after {
